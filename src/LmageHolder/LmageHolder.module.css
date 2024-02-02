@@ -1,0 +1,24 @@
+.img{
+ background-color: rgb(58, 58, 58);
+ border-radius: 50%;
+}
+.tag{
+    color: rgb(134, 134, 134);
+}
+.name{
+    font-weight: bold;
+}
+.location{
+    color: rgb(134, 134, 134);
+}
+.main{
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+    margin: 0;
+    width: 100%;
+    border-radius: 5px;
+}

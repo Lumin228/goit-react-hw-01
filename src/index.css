@@ -13,10 +13,42 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+p,
+ul,
+div,
+h1,
+h2,
+h3,
+h4,
+img{
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+}
+
 body {
+  color: black;
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: darkolivegreen;
 }

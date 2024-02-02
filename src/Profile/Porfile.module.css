@@ -1,0 +1,10 @@
+.main{
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    background-color: rgb(189, 189, 189);
+    margin-left: 260px;
+}
