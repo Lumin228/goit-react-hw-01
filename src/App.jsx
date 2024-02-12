@@ -2,9 +2,9 @@ import "./App.css";
 import userData from "./userData.json";
 import { Profile } from "./Profile/Profile";
 import friends from "./friendsList/friendData.json"
-import { Friends } from "./friendsList/friendRender";
-import { Table } from "./Table/table";
-import raft from "./Table/tablelist.json";
+import { FriendList } from "./friendsList/friendRender";
+import { TransactionHistory } from "./Table/table";
+import transactions from "./Table/tablelist.json";
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       /> 
-      <Friends list={friends}/>
-      <Table spisok={raft}/>
+      <FriendList friends={friends}/>
+      <TransactionHistory items={transactions}/>
     </div>
   );
 }

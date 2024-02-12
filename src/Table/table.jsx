@@ -1,5 +1,5 @@
 import css from "./tablelast.module.css"
-export const Table = ({ spisok }) => {
+export const TransactionHistory = ({ items }) => {
     return (
       <table className={css.borders}>
         <thead>
@@ -11,7 +11,7 @@ export const Table = ({ spisok }) => {
         </thead>
   
         <tbody>
-          {spisok.map((section, index) => (
+          {items.map((section, index) => (
             <tr key={section.id} style={{ backgroundColor: index % 2 === 0 ? 'gray' : 'white' }}>
               <td>{section.type}</td>
               <td>{section.amount}</td>

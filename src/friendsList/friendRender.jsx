@@ -1,8 +1,8 @@
 import css from './friends.module.css';
 import { FriendLi } from "./FriendLi"
-export const Friends = ({list}) => {
+export const FriendList = ({friends}) => {
     return <ul className={css.list}>
-        {list.map(friend => (
+        {friends.map(friend => (
           <FriendLi 
             avatar={friend.avatar}
             name={friend.name}
