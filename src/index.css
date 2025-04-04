@@ -1,54 +1,40 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+/* src/index.css */
+
+body {
+  font-family: sans-serif;
   line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-p,
-ul,
-div,
 h1,
 h2,
 h3,
 h4,
-img{
+h5,
+h6,
+p {
   margin: 0;
+  padding: 0;
+  
 }
 
-ul{
-  list-style: none;
+ul,
+ol {
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  color: black;
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  background-color: white;
+img {
+  display: block;
+  max-width: 100%;
 }
 
 table {
-  border-collapse: collapse;
-  width: 100%;
+  border: 1px solid black; /* Устанавливает черную границу для таблицы */
+  border-collapse: collapse; /* Убирает промежутки между ячейками */
 }
 
 th, td {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-th {
-  background-color: darkolivegreen;
+  border: 1px solid black; /* Устанавливает черную границу для ячеек */
+  padding: 8px; /* Добавляет отступы в ячейки */
+  text-align: left; /* Выравнивание текста по левому краю */
 }

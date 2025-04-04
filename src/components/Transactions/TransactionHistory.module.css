@@ -1,0 +1,27 @@
+.lineOP{
+    background-color: gray;
+}
+
+.table{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.head{
+    color: white;
+    background-color: rgb(68, 68, 68);
+}
+
+.casual{
+    background-color: white;
+}
+
+.twidth{
+    
+    text-align: center;
+}
+
+.tdwidth{
+    padding-left: 60px;
+    padding-right: 60px;
+}
