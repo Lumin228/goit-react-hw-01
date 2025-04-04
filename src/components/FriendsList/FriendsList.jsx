@@ -1,4 +1,4 @@
-import css from "./FriendsList.module.css"
+import css from "../FriendsList/FriendListItem.module.css"
 import clsx from "clsx";
 
 
